@@ -76,6 +76,7 @@ namespace CahayaganCRUD.Controllers
                 TempData["msg"] = $"Deleted {u.username} Successfully";
 
             }
+
             return RedirectToAction("Index");
         }
     }
